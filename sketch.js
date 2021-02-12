@@ -45,9 +45,9 @@ function draw() {
   drawSprites();
 }
 
-function keyPressed() {
+function mousePressed() {
 
-  if (keyDown("space")) {
+  //if (keyDown("space")) {
     dragon.velocityX = 20;
-  }
+  //}
 }
