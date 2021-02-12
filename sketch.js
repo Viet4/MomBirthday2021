@@ -23,7 +23,7 @@ function setup() {
 function draw() {
   background("#b9ebe9");  
 
-  //console.log(dragon.x);
+  console.log(dragon.x);
 
   if (dragon.x === 0) {
     cake.velocityX = 20;
